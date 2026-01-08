@@ -1,0 +1,74 @@
+/* LEE 선생님 웹앱 기본 스타일 */
+
+/* 페이지 전체 설정 */
+body {
+    font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+/* 제목 스타일 */
+.page-title, #lunch-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #444;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* 메인 콘텐츠 박스 스타일 */
+.content-box, #school-lunch {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+/* 로딩/에러 상태 */
+.loading-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.error-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d32f2f;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff5f5;
+    border-radius: 10px;
+    border: 1px solid #ffcdd2;
+}
+
+/* 버튼 스타일 */
+.main-button {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.main-button:hover {
+    background-color: #45a049;
+}
+
+.main-button:active {
+    background-color: #3d8b40;
+}
